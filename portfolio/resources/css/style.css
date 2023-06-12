@@ -1,8 +1,33 @@
 body{
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
-    border: solid;
+    display:flex;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #dadce0;
+    border-top: 1px solid #dadce0;
+}
+
+.navbar-brand{
+    font-size: x-large;
     
+    text-decoration: none;
+    color:black;
+}
+.navbar-nav {
+    display: flex;
+    margin-left: auto; /* Ajout de cette ligne */
+}
+.nav-link{
+    
+    text-decoration: none;
+    color: lightgray;
+    padding: 8px 15px;
+}
+
+.active  {
+    text-decoration: none;
+    color: black;
 }
