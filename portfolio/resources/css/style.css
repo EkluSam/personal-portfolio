@@ -9,6 +9,7 @@ body {
     padding-top: 1.5rem;
     border-bottom: 1px solid #dadce0;
     border-top: 1px solid #dadce0;
+    background-color: white;
 }
 
 .navbar-brand {
@@ -23,13 +24,14 @@ body {
 .navbar-nav {
     display: flex;
     margin-left: 10px;
-    margin-right: 450px;
+    margin-right: 570px;
 }
 
 .nav-link {
     text-decoration: none;
     color: lightgray;
     padding: 10px 15px;
+    font-size: 18px;
 }
 
 .active {
@@ -153,4 +155,14 @@ body {
 .projet h3 {
     font-size: 18px;
     margin-top: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+#mail{
+    text-decoration: none;
 }
