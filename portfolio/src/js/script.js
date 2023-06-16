@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var targetId = this.getAttribute('href');
       var targetElement = document.querySelector(targetId);
       var startPosition = window.pageYOffset;
-      var targetPosition = targetElement.offsetTop - 35;
+      var targetPosition = targetElement.offsetTop - 75;
       var distance = targetPosition - startPosition;
       var duration = 800;
       var startTimestamp = null;
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
       t -= 2;
       return c / 2 * (t * t * t + 2) + b;
     }
-  });
+});
   
   window.addEventListener('scroll', function() {
     var navbar = document.querySelector('.navbar');
